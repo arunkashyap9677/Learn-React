@@ -1,8 +1,10 @@
+import Footer from "../common/footer";
+import Header from "../common/header";
 
 
 const page = (
     <div>
-        <img src="D:/Projects/React/learn-React/react-app/public/logo192.png" width="40px"></img>
+        <Header />
         <h1>Fun facts about React</h1>
         <ul>
             <li>fact 1</li>
@@ -10,6 +12,7 @@ const page = (
             <li>fact 3</li>
             <li>fact 4</li>
         </ul>
+        <Footer />      
     </div>
 );
 
