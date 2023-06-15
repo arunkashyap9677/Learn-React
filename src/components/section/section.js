@@ -1,9 +1,9 @@
-import Footer from "../common/footer";
-import Header from "../common/header";
+import Footer from "../../common/footer";
+import Header from "../../common/header";
 
 
 const page = (
-    <div>
+    <div className="container">
         <Header />
         <h1>Fun facts about React</h1>
         <ul>
