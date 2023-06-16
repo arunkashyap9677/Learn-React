@@ -3,7 +3,8 @@ function Header() {
     return (
         <header>
             <nav className="nav">
-                <img src="./logo512.png" width="40px" height="40px"/>
+                <img src="../../images/my-image.jpeg"/>
+                <h3>React Facts</h3>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>

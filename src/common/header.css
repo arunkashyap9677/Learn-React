@@ -1,6 +1,10 @@
 .nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    /*justify-content: space-between;*/
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
 }
 
 .nav-items {
@@ -10,4 +14,16 @@
 
 .nav-items > li {
     padding: 10px;
+    color: #DEEBF8;
+}
+
+.nav > img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav > h3 {
+    padding: 10px;
+    margin-right: auto;
+    color: #61DAFB;
 }
