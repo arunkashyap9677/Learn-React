@@ -3,7 +3,7 @@ function Header() {
     return (
         <header>
             <nav className="nav">
-                <img src="../../images/my-image.jpeg"/>
+                <img src={require('../images/logo192.png')}/>
                 <h3>React Facts</h3>
                 <ul className="nav-items">
                     <li>Pricing</li>

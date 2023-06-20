@@ -4,11 +4,12 @@ import reportWebVitals from './reportWebVitals';
 import Section from './components/section/section';
 import './index.css'
 import Card from './components/card/card';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Card />
+    <App />
   </React.StrictMode>
 );
 
