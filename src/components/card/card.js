@@ -1,4 +1,3 @@
-import Header from "../../common/header";
 import './card.css';
 
 export default function Card(properties) {
