@@ -1,19 +1,19 @@
 import './card.css';
 
 export default function Card(properties) {
-    const {title, fee, country, reviewCount, rating} = properties;
+    const {card} = properties;
     console.log(properties);
     return (
         <div>
             <div className="card">
                 <img src={require('../../images/my-image.jpg')} className="card--image"/>
                 <div className="card--stats">
-                    <span >{rating}</span>
-                    <span className="gray">({reviewCount}) *</span>
-                    <span className="gray">{country}</span>
+                    <span >{card.rating}</span>
+                    <span className="gray">({card.reviewCount}) *</span>
+                    <span className="gray">{card.country}</span>
                 </div>
-                <p>{title}</p>
-                <p>From {fee} per person</p>
+                <p>{card.title}</p>
+                <p>From {card.fee} per person</p>
             </div>
         </div>
     );
