@@ -4,13 +4,17 @@ import Header from './common/header';
 import cards from './common/cardsData';
 import HeaderMeme from './common/headerMemeGenerator';
 import Meme from './components/meme/meme';
+import Things from './components/thingsArray/things';
 
 export default function App() {
   return (
     <div>
-      <HeaderMeme />
-      <Meme />
+      <Things />
     </div>
+    // <div>
+    //   <HeaderMeme />
+    //   <Meme />
+    // </div>
   );
 }
 

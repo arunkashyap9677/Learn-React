@@ -1,10 +1,13 @@
+import './meme.css'
+
 export default function Meme() {
     return (
-        <>
-            <form>
-                <input type="text" placeholder="type a meme" />
-                <input type="text" placeholder="type punchline" />
-            </form>
-        </>
+        <main>
+            <div className="form">
+                <input type="text" placeholder="type a meme" className="form--input"/>
+                <input type="text" placeholder="type punchline" className="form--input"/>
+                <button className="form--button">get a new meme image</button>
+            </div>
+        </main>
     );
 }
